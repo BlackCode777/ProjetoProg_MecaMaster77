@@ -1,0 +1,86 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+MODELO DE NEGÓCIOS - Pagar o aluguel de mecanico 
+o cliente paga uma mensalidade por mês  e ele pode terá
+o seu carro com a manutenção em dia 
+e esse plano de serviço pode ter varios niveis 
+1 - simples - serviços de baixa complexidade
+2 - medio - serviços de media complexidade
+3 - avançado -> serviços mais caros de alta complexidade
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+        Entendi, você deseja que cada oficina mecânica possa gerenciar os próprios clientes dentro do sistema MecaMaster77. Isso pode 
+        ser realizado através da criação de contas de usuário para cada oficina, permitindo-lhes acesso restrito apenas aos seus 
+        respectivos clientes.
+
+        Para implementar essa funcionalidade, é preciso criar um sistema de autenticação no qual cada oficina terá suas credenciais de 
+        login. Uma vez autenticadas, as oficinas podem acessar somente os clientes associados a elas. Isso pode ser alcançado por meio 
+        de permissões e restrições no nível de usuário, garantindo que cada oficina veja e gerencie apenas os clientes vinculados à sua 
+        conta.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+Usuario administradorMaster de todo sistema ---> cadastra todas as oficinas 
+
+cada oficina pode cadastrar seus 
+    clientes associados, 
+    seus carros, 
+    fornecedores, 
+    estoques, 
+    manutenções/revisões, 
+    pode vizualizar o dashboard de informação
+    cadastrar seus funcionários
+    tempo para remanutenção dos carros
+
+    - Administrador
+        - Oficina A
+            - UsuárioMaster_1
+                - Usuário_1
+                - Usuário_2
+        - Oficina B
+            - UsuárioMaster_3
+                - Usuário_1
+                - Usuário 2
+        - Oficina C
+            - UsuárioMaster_3
+                - Usuário_1
+                - Usuário_2
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Sistema ADMINISTRATIVO de OficinasMecanicas
+
+    Um sistema de cadastro master ou de administração geralmente é o nível mais alto em um sistema hierárquico. 
+    No caso do seu contexto, onde um administrador cadastra e gerencia as oficinas, a estrutura pode seguir este fluxo:
+
+    1 - Login do Administrador: 
+    O sistema deve ter um login específico para o administrador. Após o login, o administrador 
+    terá acesso a funcionalidades exclusivas e mais amplas do sistema.
+
+    2 - Painel de Controle do Administrador:
+        Uma vez autenticado, o administrador terá um painel de controle que permite realizar tarefas como:
+
+        - Cadastro de Oficinas: 
+            O administrador pode cadastrar novas oficinas, incluindo detalhes como nome, endereço, informações de contato, entre outros.
+
+        - Gerenciamento de Oficinas: 
+            Pode visualizar, editar ou remover oficinas já existentes.
+
+        - Atribuição de Permissões e Usuários: 
+            O administrador pode definir permissões e atribuir usuários (como gerentes) para cada oficina.
+
+        - Monitoramento Geral: 
+            Pode ter uma visão geral do desempenho e funcionamento de todas as oficinas.
+
+    3 - Cadastro e Gerenciamento de Usuários e Permissões: 
+    O administrador pode criar contas de usuários e definir permissões específicas para 
+    
+    cada conta, como acesso a determinadas funcionalidades ou oficinas dentro do sistema.
+
+    4 - Relatórios e Análises: 
+        O sistema pode oferecer relatórios e ferramentas de análise para que o administrador possa avaliar o desempenho 
+        das oficinas, gerenciar recursos, entre outras métricas importantes.
+
+    A estrutura do sistema de administração deve ser clara, intuitiva e permitir que o administrador tenha um controle efetivo sobre as 
+    oficinas e os usuários associados. A interface do usuário para o administrador deve ser amigável e oferecer as ferramentas necessárias 
+    para um gerenciamento eficaz.
