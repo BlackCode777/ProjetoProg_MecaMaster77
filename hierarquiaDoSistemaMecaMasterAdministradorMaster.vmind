@@ -1,0 +1,137 @@
+{
+    "root": {
+        "data": {
+            "id": "cwofs4emeog0",
+            "created": 1698939475585,
+            "text": "SistemaMecaMasterAdminMaster",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cwofstj6uuo0",
+                    "created": 1698939530281,
+                    "text": "CadastroDeOficinas",
+                    "layout_mind_offset": {
+                        "x": -93,
+                        "y": 122
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cwofvaqpthk0",
+                            "created": 1698939724470,
+                            "text": "CadastroDeFuncionarios",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cwofvh6uww00",
+                            "created": 1698939738506,
+                            "text": "CadastroDeFornecedores",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cwofvn3wva00",
+                            "created": 1698939751389,
+                            "text": "CadastroDeClientes ",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 2,
+                                "y": 5
+                            },
+                            "progress": null,
+                            "priority": 1
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cwogcty5d4g0",
+                            "created": 1698941098469,
+                            "text": "CadastroDeServicos",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                            "id": "cwohkdnwx6o0",
+                            "created": 1698944511045,
+                            "text": "ContasAPagar"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cwohklcsosw0",
+                            "created": 1698944527787,
+                            "text": "ContasAReceber"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cwohkram44g0",
+                            "created": 1698944540715,
+                            "text": "ControleDeCaixa"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cwohofn74eg0",
+                            "created": 1698944828812,
+                            "text": "ATelaDeEntradaDoSistema",
+                            "layout_right_offset": {
+                                "x": -4,
+                                "y": -363
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cwohpelsng00",
+                                    "created": 1698944904914
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cwohky0y7lk0",
+                            "created": 1698944555369,
+                            "text": "NotasFiscais",
+                            "layout_right_offset": {
+                                "x": -3,
+                                "y": -20
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cwogd87fr0w0",
+                    "created": 1698941129505,
+                    "layout_mind_offset": {
+                        "x": 665,
+                        "y": -125
+                    },
+                    "text": "DashBoardDeAcompanhamentoDeOficinas",
+                    "expandState": "expand"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}
