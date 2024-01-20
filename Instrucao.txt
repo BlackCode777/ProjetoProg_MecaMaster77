@@ -1,4 +1,17 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Atualizando o angular do projeto da v.15 para v.16
+    - depois de modificar o arquivo package.json na raiz do 
+        projeto ( OBS:  copiar as dependencias de um projeto
+        que tenha uma versão de angular mais nova e colar no arquivo 
+        package.json do projeto com angular na versão antiga e rodar
+        os seguintes comandos. )
+
+        0.1) - ng generate environment producao
+        0) - npm install --force
+        1) - npm audit fix --force
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 MODELO DE NEGÓCIOS - Pagar o aluguel de mecanico 
 o cliente paga uma mensalidade por mês  e ele pode terá
 o seu carro com a manutenção em dia 
