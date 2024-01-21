@@ -1,24 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { HeaderComponent } from '../header/header.component';
-import { HomeComponent } from '../home/home.component';
-import { SidenavComponent } from '../sidenav/sidenav.component';
+import { DashboardIndicadorComponent } from './dashboard-indicador/dashboard-indicador.component';
 
 
 
 @NgModule({
-  declarations: [
-    HeaderComponent,
-    HomeComponent,
-    SidenavComponent
-  ],
+  declarations: [ DashboardIndicadorComponent ],
   imports: [
     CommonModule
   ],
-  exports: [
-    HeaderComponent,
-    HomeComponent,
-    SidenavComponent
-  ]
+  exports: [ DashboardIndicadorComponent ]
 })
 export class ComponentesModule { }

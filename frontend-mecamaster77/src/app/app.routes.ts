@@ -15,6 +15,5 @@ export const routes: Routes = [
     // },
 ];
 
-export const AppRoutes = routes;
 
 
