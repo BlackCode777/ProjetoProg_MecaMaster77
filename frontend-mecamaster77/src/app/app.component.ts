@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
@@ -6,9 +5,12 @@ import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @Component({
     selector: 'app-root',
@@ -16,10 +18,12 @@ import { HomeComponent } from './home/home.component';
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
     imports: [
-      CommonModule, 
+      //CommonModule, 
       RouterOutlet, 
       RouterLink, 
       RouterLinkActive, 
+      BrowserModule,
+      BrowserAnimationsModule,
 
       // * MATERIAL IMPORTS      
       MatSidenavModule,
@@ -28,12 +32,21 @@ import { HomeComponent } from './home/home.component';
       MatIconModule,
       MatDividerModule,
       MatListModule,
+
       HeaderComponent,
 
       //CoMPONENTES
-      HomeComponent
+      HomeComponent,
+      SidenavComponent
     ]
 })
 export class AppComponent {
   title = 'MecaMaster77';
+
+  sideBarOpen = true;
+
+  sideBarToggler() {
+    this.sideBarOpen = !this.sideBarOpen;
+  }
+  
 }

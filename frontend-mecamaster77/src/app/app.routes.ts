@@ -6,6 +6,9 @@ import { HomeComponent } from './home/home.component';
 export const routes: Routes = [
 
     // Rota Home
+    { path: '', redirectTo: 'home', pathMatch: 'full'},
+
+    // Rota Home
     { path: 'home', component: HomeComponent },
 
     // Rota dashboard
