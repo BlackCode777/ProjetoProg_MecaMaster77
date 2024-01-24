@@ -30,9 +30,19 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.min.css",
               "src/styles.scss"
             ],
             "scripts": [],
+            "allowedCommonJsDependencies": [
+              "chart.js"
+            ],
+            
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -102,5 +112,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "29fafddf-909c-4a78-9e89-d03e8d7310a8"
   }
 }
