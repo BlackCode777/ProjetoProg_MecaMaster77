@@ -6,7 +6,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterOutlet } from '@angular/router';
-import { SidenavComponent } from '../sidenav/sidenav.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-header',
@@ -21,20 +21,9 @@ import { SidenavComponent } from '../sidenav/sidenav.component';
     MatDividerModule,
     MatListModule,
     // COMPONENTS
-    SidenavComponent,
+    NgbModule,
   ],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrl: './header.component.scss',
 })
-export class HeaderComponent {
-
-  @Output() toggleSideBarForMe: EventEmitter<boolean> = new EventEmitter();
-
-  toggle(open: boolean) {
-    this.toggleSideBarForMe.emit(open);
-    setTimeout(() => {
-      window.dispatchEvent(new Event('resize'));
-    }, 300);
-  }
-
-}
+export class HeaderComponent {}
